@@ -1,10 +1,12 @@
 # ********** 08/26/2020 **********
 
 ## Performance
+Studied what needs to bo done in terms of performance data collection, visualization and analysis
 
 ### Measurements
-
-#### Computation
+- execution time
+- number of computation
+- idle rate, ...
 
 #### Memory
 
@@ -80,24 +82,8 @@
 ### Goal
 
 * schedule computations in the expression tree on _p_ (a fixed number) of
-
-  processors. 
-
-* (in other words ?) partition the expression tree into _p_ subtrees and assign
-
-  each to a single computing node (?).
-
-#### Approach
-
-is to define a dependency graph, and apply known scheduling algorithms to this
-graph for maximum computation performance.
-
-### Dependency Graph
-
-<span style="color:blue"> This text is blue.</span>
-
-<span style="color:red"> This text is red.</span> 
-
-<span style="color:#59afe1"> This text is colored.</span>
+  processors.
+  
+ for more info please see https://github.com/rtohid/scheduler/blob/master/model/dependency_graph.pdf
 
 # ********** 08/26/2020 **********
